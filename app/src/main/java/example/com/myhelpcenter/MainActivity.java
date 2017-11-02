@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     private ListView mLv;
     private LinearLayout container;
-    private String[] arrays = {"热门问题", "登录注册", "人脸识别", "身份认证", "运营商", "补充资料", "征信报告", "绑卡", "人工审核", "提现", "还款", "在线客服"};
+    private String[] arrays = {"热门问题", "登录注册", "人脸识别", "身份认证", "运营商", "补充资料",
+            "征信报告", "绑卡", "人工审核", "提现", "还款", "在线客服"};
     private List<String> lists = new ArrayList<>();
     private LeftAdapter leftAdapter;
 
